@@ -1,0 +1,4 @@
+1. pastikan java sudah terinstall.
+2. masuk ke direktori ini
+3. jalankan perintah "javac *.java" di CMD / Terminal
+4. jalankan perintah "java CreateRobot" di CMD / Terminal
