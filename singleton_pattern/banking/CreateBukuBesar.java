@@ -1,5 +1,3 @@
-
-
 class BukuBesar{
 	int kasMasuk;
 	int kasKeluar;
@@ -7,7 +5,7 @@ class BukuBesar{
 
 	private static BukuBesar instance = new BukuBesar();
 
-	private BukuBesar(){ 
+	private BukuBesar(){
 
 	}
 
@@ -17,19 +15,27 @@ class BukuBesar{
 	}
 
 	public void hitungNeraca(){
-		System.out.println("Menghitung Neraca");
+		System.out.println("Melakukan Perhitungan Neraca");
 	}
 
 	public void hitungSaldo(){
-		System.out.println("Menghitung Saldo");
+		System.out.println("Melakukan Perhitungan Saldo");
 	}
 
 	public static void main(String[] args) {
 		BukuBesar buku1 = BukuBesar.AksesDetail();
+		System.out.print("1. ");
 		buku1.hitungSaldo();
+		System.out.println("");
+		System.out.print("2. ");
+     		buku1.hitungNeraca();
+
 	}
 
 }
+
+
+
 
 
 
